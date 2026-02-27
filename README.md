@@ -15,7 +15,8 @@ Requirements
 - A running Minecraft server with Fabric + Chunky + Multiworld for `rcon_watcher.py` testing.
 
 Typical workflow
-1. Update seeds in `seeds.txt` and regenerate world functions:
+1. Gather seeds from this repo: https://github.com/Cubitect/cubiomes/tree/31f189223023b6329cd958a32d5fb079c35f15d2#
+2. Update seeds in `seeds.txt` and regenerate world functions:
 
 ```bash
 python gen_commands.py
