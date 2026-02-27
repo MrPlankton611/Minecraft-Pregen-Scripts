@@ -1,0 +1,11 @@
+# Minecraft server files
+logs/
+world/
+*.log
+server.properties
+
+# Python cache
+__pycache__/
+
+# Datapack generated files (if you prefer to not include)
+world/datapacks/pregen_pack/data/pregen/function/worlds/

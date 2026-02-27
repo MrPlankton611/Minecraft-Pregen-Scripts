@@ -1,0 +1,1 @@
+java -Xms20G -Xmx20G -XX:+UseZGC -XX:+ZGenerational -XX:+AlwaysPreTouch -jar server.jar nogui
