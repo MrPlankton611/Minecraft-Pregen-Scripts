@@ -1,6 +1,8 @@
 import re
 from pathlib import Path
 
+starting_world_number = 202
+
 base = Path(r"c:\Pregenserver\world\datapacks\pregen_pack\data\pregen\function\worlds")
 files = sorted([p for p in base.glob('world_*.mcfunction')])
 
